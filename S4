@@ -1,0 +1,22 @@
+---
+title: "Análisis Exploratorio de Datos con mtcars"
+author: "Tu Nombre"
+date: "2024-04-27"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    theme: united
+params:
+  show_code: false
+  fig_width: 7
+  fig_height: 5
+---
+# Cargar las bibliotecas necesarias
+library(dplyr)
+library(ggplot2)
+library(DT)
+library(kableExtra)
+
+# Configurar el entorno global
+knitr::opts_chunk$set(echo = params$show_code)
